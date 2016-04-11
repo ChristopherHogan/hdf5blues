@@ -1,0 +1,17 @@
+Proc 2: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 2: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 3: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 3: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 6: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 6: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 7: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 7: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+aprun: Apid 37281354: Caught signal Terminated, sending to application
+_pmiu_daemon(SIGCHLD): [NID 13412] [c22-8c1s2n0] [Mon Apr 11 09:51:50 2016] PE RANK 2 exit signal Terminated
+_pmiu_daemon(SIGCHLD): [NID 13371] [c22-8c1s2n3] [Mon Apr 11 09:51:50 2016] PE RANK 7 exit signal Terminated
+_pmiu_daemon(SIGCHLD): [NID 13414] [c22-8c1s3n0] [Mon Apr 11 09:51:50 2016] PE RANK 0 exit signal Terminated
+_pmiu_daemon(SIGCHLD): [NID 13368] [c22-8c1s3n2] [Mon Apr 11 09:51:50 2016] PE RANK 4 exit signal Terminated
+_pmiu_daemon(SIGCHLD): [NID 13369] [c22-8c1s3n3] [Mon Apr 11 09:51:50 2016] PE RANK 5 exit signal Terminated
+_pmiu_daemon(SIGCHLD): [NID 13413] [c22-8c1s2n1] [Mon Apr 11 09:51:50 2016] PE RANK 3 exit signal Terminated
+_pmiu_daemon(SIGCHLD): [NID 13415] [c22-8c1s3n1] [Mon Apr 11 09:51:50 2016] PE RANK 1 exit signal Terminated
+_pmiu_daemon(SIGCHLD): [NID 13370] [c22-8c1s2n2] [Mon Apr 11 09:51:50 2016] PE RANK 6 exit signal Terminated
