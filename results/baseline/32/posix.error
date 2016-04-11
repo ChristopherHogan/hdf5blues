@@ -1,0 +1,65 @@
+Proc 2: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 2: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 3: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 3: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 6: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 6: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 7: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 7: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 10: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 10: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 11: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 11: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 14: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 14: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 15: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 15: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 18: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 18: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 19: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 19: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 22: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 22: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 23: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 23: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 26: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 26: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 27: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 27: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 30: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 30: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 31: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 31: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+aprun: Apid 37282038: Caught signal Terminated, sending to application
+_pmiu_daemon(SIGCHLD): [NID 22612] [c9-8c2s5n0] [Mon Apr 11 11:11:41 2016] PE RANK 2 exit signal Terminated
+_pmiu_daemon(SIGCHLD): [NID 21165] [c11-8c2s6n1] [Mon Apr 11 11:11:41 2016] PE RANK 13 exit signal Terminated
+_pmiu_daemon(SIGCHLD): [NID 22602] [c9-8c2s5n2] [Mon Apr 11 11:11:41 2016] PE RANK 18 exit signal Terminated
+_pmiu_daemon(SIGCHLD): [NID 21170] [c11-8c2s6n2] [Mon Apr 11 11:11:41 2016] PE RANK 28 exit signal Terminated
+_pmiu_daemon(SIGCHLD): [NID 22604] [c9-8c2s6n2] [Mon Apr 11 11:11:41 2016] PE RANK 20 exit signal Terminated
+_pmiu_daemon(SIGCHLD): [NID 21161] [c11-8c2s4n1] [Mon Apr 11 11:11:41 2016] PE RANK 9 exit signal Terminated
+_pmiu_daemon(SIGCHLD): [NID 22615] [c9-8c2s4n1] [Mon Apr 11 11:11:41 2016] PE RANK 1 exit signal Terminated
+_pmiu_daemon(SIGCHLD): [NID 22606] [c9-8c2s7n2] [Mon Apr 11 11:11:41 2016] PE RANK 22 exit signal Terminated
+_pmiu_daemon(SIGCHLD): [NID 21164] [c11-8c2s6n0] [Mon Apr 11 11:11:41 2016] PE RANK 12 exit signal Terminated
+_pmiu_daemon(SIGCHLD): [NID 21174] [c11-8c2s4n2] [Mon Apr 11 11:11:41 2016] PE RANK 24 exit signal Terminated
+_pmiu_daemon(SIGCHLD): [NID 22600] [c9-8c2s4n2] [Mon Apr 11 11:11:41 2016] PE RANK 16 exit signal Terminated
+_pmiu_daemon(SIGCHLD): [NID 22603] [c9-8c2s5n3] [Mon Apr 11 11:11:41 2016] PE RANK 19 exit signal Terminated
+_pmiu_daemon(SIGCHLD): [NID 21171] [c11-8c2s6n3] [Mon Apr 11 11:11:41 2016] PE RANK 29 exit signal Terminated
+_pmiu_daemon(SIGCHLD): [NID 21160] [c11-8c2s4n0] [Mon Apr 11 11:11:41 2016] PE RANK 8 exit signal Terminated
+_pmiu_daemon(SIGCHLD): [NID 22614] [c9-8c2s4n0] [Mon Apr 11 11:11:41 2016] PE RANK 0 exit signal Terminated
+_pmiu_daemon(SIGCHLD): [NID 22610] [c9-8c2s6n0] [Mon Apr 11 11:11:41 2016] PE RANK 4 exit signal Terminated
+_pmiu_daemon(SIGCHLD): [NID 21169] [c11-8c2s7n3] [Mon Apr 11 11:11:41 2016] PE RANK 31 exit signal Terminated
+_pmiu_daemon(SIGCHLD): [NID 21168] [c11-8c2s7n2] [Mon Apr 11 11:11:41 2016] PE RANK 30 exit signal Terminated
+_pmiu_daemon(SIGCHLD): [NID 21173] [c11-8c2s5n3] [Mon Apr 11 11:11:41 2016] PE RANK 27 exit signal Terminated
+_pmiu_daemon(SIGCHLD): [NID 21172] [c11-8c2s5n2] [Mon Apr 11 11:11:41 2016] PE RANK 26 exit signal Terminated
+_pmiu_daemon(SIGCHLD): [NID 22605] [c9-8c2s6n3] [Mon Apr 11 11:11:41 2016] PE RANK 21 exit signal Terminated
+_pmiu_daemon(SIGCHLD): [NID 22601] [c9-8c2s4n3] [Mon Apr 11 11:11:41 2016] PE RANK 17 exit signal Terminated
+_pmiu_daemon(SIGCHLD): [NID 21167] [c11-8c2s7n1] [Mon Apr 11 11:11:41 2016] PE RANK 15 exit signal Terminated
+_pmiu_daemon(SIGCHLD): [NID 21166] [c11-8c2s7n0] [Mon Apr 11 11:11:41 2016] PE RANK 14 exit signal Terminated
+_pmiu_daemon(SIGCHLD): [NID 21163] [c11-8c2s5n1] [Mon Apr 11 11:11:41 2016] PE RANK 11 exit signal Terminated
+_pmiu_daemon(SIGCHLD): [NID 21162] [c11-8c2s5n0] [Mon Apr 11 11:11:41 2016] PE RANK 10 exit signal Terminated
+_pmiu_daemon(SIGCHLD): [NID 22608] [c9-8c2s7n0] [Mon Apr 11 11:11:41 2016] PE RANK 6 exit signal Terminated
+_pmiu_daemon(SIGCHLD): [NID 22611] [c9-8c2s6n1] [Mon Apr 11 11:11:41 2016] PE RANK 5 exit signal Terminated
+_pmiu_daemon(SIGCHLD): [NID 22613] [c9-8c2s5n1] [Mon Apr 11 11:11:41 2016] PE RANK 3 exit signal Terminated
+_pmiu_daemon(SIGCHLD): [NID 22609] [c9-8c2s7n1] [Mon Apr 11 11:11:41 2016] PE RANK 7 exit signal Terminated
+_pmiu_daemon(SIGCHLD): [NID 22607] [c9-8c2s7n3] [Mon Apr 11 11:11:41 2016] PE RANK 23 exit signal Terminated
+_pmiu_daemon(SIGCHLD): [NID 21175] [c11-8c2s4n3] [Mon Apr 11 11:11:41 2016] PE RANK 25 exit signal Terminated
