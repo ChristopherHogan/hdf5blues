@@ -1,0 +1,1025 @@
+Proc 463: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 463: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 695: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 695: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 706: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 706: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 994: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 994: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 962: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 962: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 930: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 930: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 898: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 898: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 866: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 866: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 834: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 834: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 802: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 802: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 770: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 770: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 738: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 738: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 707: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 707: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 642: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 642: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 610: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 610: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 578: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 578: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 546: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 546: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 514: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 514: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 482: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 482: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 479: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 479: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 418: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 418: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 386: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 386: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 354: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 354: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 322: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 322: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 290: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 290: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 258: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 258: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 226: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 226: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 194: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 194: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 162: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 162: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 130: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 130: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 98: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 98: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 66: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 66: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 34: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 34: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 2: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 2: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 3: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 3: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 99: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 99: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 195: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 195: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 259: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 259: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 291: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 291: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 387: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 387: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 478: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 478: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 483: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 483: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 515: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 515: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 611: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 611: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 643: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 643: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 710: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 710: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 771: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 771: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 803: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 803: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 835: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 835: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 867: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 867: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 899: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 899: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 931: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 931: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 934: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 934: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 902: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 902: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 870: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 870: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 838: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 838: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 806: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 806: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 774: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 774: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 711: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 711: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 646: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 646: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 614: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 614: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 518: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 518: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 486: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 486: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 475: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 475: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 390: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 390: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 294: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 294: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 262: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 262: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 198: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 198: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 102: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 102: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 6: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 6: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 7: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 7: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 103: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 103: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 199: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 199: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 263: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 263: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 295: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 295: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 391: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 391: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 474: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 474: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 487: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 487: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 519: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 519: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 615: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 615: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 647: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 647: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 714: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 714: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 775: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 775: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 807: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 807: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 839: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 839: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 871: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 871: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 903: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 903: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 935: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 935: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 938: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 938: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 906: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 906: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 874: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 874: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 842: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 842: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 810: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 810: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 778: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 778: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 715: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 715: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 650: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 650: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 618: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 618: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 522: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 522: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 490: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 490: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 471: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 471: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 394: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 394: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 298: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 298: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 266: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 266: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 202: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 202: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 106: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 106: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 10: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 10: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 11: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 11: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 107: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 107: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 203: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 203: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 267: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 267: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 299: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 299: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 395: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 395: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 470: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 470: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 491: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 491: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 523: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 523: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 619: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 619: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 651: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 651: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 718: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 718: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 779: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 779: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 811: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 811: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 843: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 843: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 875: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 875: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 907: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 907: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 939: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 939: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 942: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 942: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 910: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 910: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 878: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 878: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 846: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 846: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 814: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 814: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 782: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 782: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 719: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 719: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 654: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 654: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 622: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 622: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 526: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 526: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 494: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 494: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 467: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 467: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 398: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 398: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 302: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 302: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 270: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 270: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 206: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 206: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 110: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 110: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 14: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 14: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 15: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 15: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 111: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 111: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 207: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 207: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 271: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 271: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 303: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 303: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 399: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 399: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 466: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 466: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 495: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 495: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 527: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 527: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 623: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 623: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 655: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 655: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 722: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 722: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 783: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 783: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 815: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 815: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 847: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 847: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 879: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 879: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 911: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 911: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 943: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 943: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 946: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 946: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 914: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 914: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 882: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 882: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 850: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 850: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 818: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 818: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 786: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 786: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 723: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 723: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 658: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 658: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 626: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 626: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 530: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 530: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 498: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 498: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 462: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 462: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 402: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 402: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 306: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 306: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 274: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 274: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 210: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 210: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 114: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 114: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 18: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 18: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 19: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 19: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 115: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 115: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 211: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 211: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 275: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 275: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 307: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 307: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 403: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 403: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 459: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 459: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 499: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 499: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 531: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 531: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 627: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 627: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 659: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 659: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 726: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 726: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 787: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 787: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 819: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 819: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 851: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 851: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 883: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 883: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 915: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 915: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 947: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 947: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 950: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 950: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 918: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 918: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 886: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 886: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 854: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 854: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 822: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 822: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 790: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 790: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 727: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 727: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 662: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 662: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 630: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 630: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 534: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 534: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 502: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 502: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 458: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 458: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 406: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 406: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 310: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 310: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 278: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 278: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 214: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 214: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 118: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 118: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 22: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 22: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 23: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 23: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 119: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 119: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 215: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 215: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 279: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 279: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 311: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 311: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 407: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 407: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 455: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 455: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 503: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 503: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 535: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 535: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 631: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 631: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 663: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 663: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 730: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 730: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 791: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 791: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 823: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 823: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 855: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 855: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 887: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 887: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 919: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 919: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 951: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 951: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 954: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 954: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 922: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 922: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 890: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 890: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 826: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 826: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 794: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 794: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 731: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 731: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 666: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 666: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 634: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 634: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 538: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 538: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 506: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 506: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 454: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 454: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 410: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 410: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 314: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 314: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 282: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 282: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 218: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 218: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 122: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 122: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 26: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 26: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 27: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 27: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 123: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 123: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 219: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 219: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 283: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 283: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 315: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 315: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 507: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 507: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 539: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 539: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 635: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 635: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 795: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 795: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 891: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 891: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 955: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 955: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 958: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 958: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 894: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 894: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 542: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 542: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 510: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 510: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 286: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 286: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 222: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 222: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 30: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 30: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 31: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 31: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 223: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 223: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 287: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 287: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 511: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 511: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 543: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 543: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 895: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 895: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 959: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 959: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 35: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 35: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 323: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 323: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 419: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 419: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 699: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 699: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 995: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 995: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 963: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 963: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 923: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 923: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 858: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 858: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 827: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 827: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 798: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 798: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 739: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 739: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 734: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 734: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 703: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 703: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 667: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 667: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 638: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 638: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 579: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 579: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 547: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 547: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 451: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 451: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 422: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 422: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 411: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 411: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 355: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 355: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 326: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 326: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 318: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 318: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 227: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 227: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 163: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 163: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 131: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 131: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 126: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 126: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 67: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 67: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 38: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 38: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 39: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 39: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 70: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 70: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 127: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 127: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 134: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 134: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 166: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 166: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 230: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 230: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 319: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 319: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 327: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 327: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 358: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 358: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 414: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 414: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 423: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 423: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 450: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 450: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 550: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 550: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 582: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 582: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 639: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 639: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 670: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 670: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 702: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 702: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 735: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 735: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 742: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 742: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 799: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 799: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 830: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 830: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 859: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 859: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 926: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 926: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 966: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 966: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 998: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 998: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 999: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 999: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 967: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 967: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 927: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 927: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 862: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 862: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 831: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 831: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 743: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 743: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 698: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 698: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 671: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 671: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 583: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 583: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 551: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 551: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 426: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 426: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 415: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 415: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 359: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 359: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 330: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 330: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 231: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 231: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 167: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 167: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 135: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 135: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 71: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 71: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 42: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 42: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 43: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 43: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 74: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 74: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 138: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 138: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 170: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 170: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 234: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 234: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 331: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 331: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 362: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 362: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 427: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 427: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 554: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 554: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 586: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 586: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 694: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 694: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 746: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 746: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 863: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 863: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 970: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 970: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 1002: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 1002: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 1003: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 1003: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 971: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 971: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 747: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 747: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 691: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 691: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 587: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 587: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 555: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 555: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 430: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 430: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 363: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 363: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 334: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 334: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 235: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 235: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 171: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 171: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 139: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 139: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 75: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 75: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 46: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 46: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 47: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 47: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 78: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 78: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 142: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 142: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 174: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 174: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 238: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 238: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 335: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 335: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 366: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 366: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 431: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 431: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 558: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 558: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 590: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 590: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 690: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 690: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 750: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 750: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 974: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 974: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 1006: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 1006: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 1007: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 1007: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 975: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 975: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 751: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 751: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 687: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 687: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 591: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 591: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 559: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 559: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 434: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 434: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 367: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 367: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 338: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 338: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 239: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 239: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 175: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 175: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 143: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 143: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 79: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 79: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 50: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 50: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 51: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 51: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 82: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 82: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 146: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 146: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 178: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 178: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 242: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 242: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 339: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 339: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 370: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 370: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 435: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 435: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 562: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 562: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 594: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 594: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 686: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 686: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 754: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 754: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 978: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 978: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 1010: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 1010: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 1011: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 1011: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 979: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 979: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 755: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 755: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 683: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 683: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 595: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 595: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 563: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 563: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 438: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 438: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 371: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 371: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 342: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 342: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 243: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 243: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 179: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 179: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 147: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 147: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 83: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 83: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 54: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 54: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 55: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 55: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 86: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 86: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 150: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 150: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 182: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 182: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 246: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 246: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 343: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 343: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 374: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 374: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 439: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 439: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 566: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 566: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 598: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 598: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 682: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 682: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 758: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 758: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 982: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 982: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 1014: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 1014: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 1015: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 1015: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 983: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 983: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 759: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 759: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 679: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 679: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 599: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 599: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 567: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 567: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 442: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 442: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 375: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 375: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 346: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 346: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 247: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 247: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 183: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 183: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 151: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 151: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 87: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 87: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 58: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 58: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 59: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 59: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 90: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 90: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 154: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 154: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 186: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 186: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 250: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 250: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 347: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 347: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 378: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 378: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 443: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 443: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 570: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 570: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 602: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 602: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 678: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 678: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 762: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 762: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 986: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 986: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 1018: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 1018: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 1019: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 1019: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 987: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 987: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 763: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 763: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 675: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 675: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 603: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 603: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 571: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 571: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 446: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 446: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 379: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 379: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 350: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 350: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 251: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 251: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 187: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 187: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 155: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 155: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 91: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 91: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 62: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 62: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 63: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 63: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 94: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 94: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 158: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 158: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 190: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 190: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 254: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 254: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 351: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 351: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 382: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 382: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 447: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 447: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 574: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 574: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 606: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 606: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 674: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 674: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 766: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 766: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 990: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 990: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 1022: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 1022: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 1023: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 1023: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 991: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 991: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 767: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 767: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 607: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 607: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 575: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 575: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 383: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 383: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 255: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 255: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 191: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 191: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 159: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 159: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+Proc 95: *** Assertion failed (POSIXSEEK) at line  970 in pio_engine.c
+Proc 95: *** Assertion failed (do_write failed) at line  316 in pio_engine.c
+aprun: Apid 37284481: Caught signal Terminated, sending to application
