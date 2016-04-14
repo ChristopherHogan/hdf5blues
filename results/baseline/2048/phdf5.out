@@ -1,0 +1,43 @@
+HDF5 Library: Version 1.8.16
+rank 0: ==== Parameters ====
+rank 0: IO API=phdf5 
+rank 0: Number of files=1
+rank 0: Number of datasets=1
+rank 0: Number of iterations=5
+rank 0: Number of processes=2048:2048
+rank 0: Number of bytes per process per dataset=1GB
+rank 0: Size of dataset(s)=2048GB:2048GB
+rank 0: File size=2048GB:2048GB
+rank 0: Transfer buffer size=1GB:1GB
+rank 0: Block size=1GB
+rank 0: Block Pattern in Dataset=Contiguous
+rank 0: I/O Method for MPI and HDF5=Independent
+rank 0: Geometry=1D
+rank 0: VFL used for HDF5 I/O=MPI-IO driver
+rank 0: Data storage method in HDF5=Contiguous
+rank 0: Env HDF5_PARAPREFIX=/scratch/sciteam/heber/4397488.bw
+rank 0: Dumping MPI Info Object(469762048) (up to 1024 bytes per item):
+object is MPI_INFO_NULL
+rank 0: ==== End of Parameters ====
+
+Number of processors = 2048
+Transfer Buffer Size: 1073741824 bytes, File size: 2097152.00 MBs
+      # of files: 1, # of datasets: 1, dataset size: 2097152.00 MBs
+        IO API = PHDF5 (w/MPI-IO driver)
+            Write (5 iteration(s)):
+                Maximum Throughput: 51850.83 MB/s
+                Average Throughput: 46016.27 MB/s
+                Minimum Throughput: 43247.76 MB/s
+            Write Open-Close (5 iteration(s)):
+                Maximum Throughput: 48483.05 MB/s
+                Average Throughput: 43370.39 MB/s
+                Minimum Throughput: 39830.29 MB/s
+            Read (5 iteration(s)):
+                Maximum Throughput: 27064.64 MB/s
+                Average Throughput: 23886.75 MB/s
+                Minimum Throughput: 20991.72 MB/s
+            Read Open-Close (5 iteration(s)):
+                Maximum Throughput: 26740.51 MB/s
+                Average Throughput: 23504.25 MB/s
+                Minimum Throughput: 20823.76 MB/s
+Application 37348536 resources: utime ~514431s, stime ~80820s, Rss ~1071168, inblocks ~21502853845, outblocks ~21530664983
