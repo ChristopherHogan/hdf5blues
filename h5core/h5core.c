@@ -6,13 +6,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define INCREMENT 4*1024*1024
+/* 512 MB increments for re-allocation */
+#define INCREMENT 64*1024*1024
 #define MAX_DATASETS 10
 #define MAX_GROUPS 10
 #define MAX_ITER 5
 #define MAX_LEN 255
 #define MAX_TIME_LEVEL 70
+/* 1 GB page size */
 #define PAGE_SIZE 512*1024*1024
+/* dataset shape */
 #define RANK 3
 #define X 48
 #define Y 48
@@ -77,6 +80,7 @@ main (int argc, char **argv)
 
   start = MPI_Wtime ();
 
+  /* outer loop - simulated time */
   for (iter = 0; iter < MAX_ITER; ++iter)
     {
       if (rank == 0)
@@ -91,6 +95,7 @@ main (int argc, char **argv)
 
       t1 = MPI_Wtime ();
 
+      /* time level */
       for (level = 0; level < MAX_TIME_LEVEL; ++level)
         {
           assert (sprintf (g1name, "level%03d", level) > 0);
@@ -98,6 +103,7 @@ main (int argc, char **argv)
                               H5P_DEFAULT);
           assert (group >= 0);
 
+          /* group level */
           for (igroup = 0; igroup < MAX_GROUPS; ++igroup)
             {
               assert (sprintf (g2name, "group%02d", igroup) > 0);
@@ -105,12 +111,18 @@ main (int argc, char **argv)
                                    H5P_DEFAULT);
               assert (group1 >= 0);
 
+              /* dataset level */
               for (idset = 0; idset < MAX_DATASETS; ++idset)
                 {
                   assert (sprintf (name, "dataset%02d", idset) > 0);
                   assert (H5LTmake_dataset_float (group1, name, RANK, dims, buf) >= 0);
-                  assert (fprintf (stderr, "rank %i time %i Wrote dataset %s/%s/%s\n", rank, level, g1name, g2name, name));
+
+#ifdef DEBUG
+                  assert (fprintf (stderr,
+                                   "rank %i time %i Wrote dataset %s/%s/%s\n",
+                                   rank, level, g1name, g2name, name));
                   assert (fflush (stderr) == 0);
+#endif
                 }
 
               assert (H5Gclose (group1) >= 0);
@@ -118,9 +130,14 @@ main (int argc, char **argv)
 
           assert (H5Gclose (group) >= 0);
         }
+
       t2 = MPI_Wtime ();
-      assert (fprintf (stdout, "rank %04i Total time for buffering chunks to memory:\t %f seconds\n", rank, t2 - t1));
+
+      assert (fprintf (stdout,
+                       "rank %04i Total time for buffering chunks to memory:\t %f seconds\n",
+                       rank, t2 - t1));
       assert (fflush (stdout) == 0);
+
       MPI_Barrier (MPI_COMM_WORLD);    // To keep output less jumbled
 
       getmemory (&memtotal, &memfree, &buffers, &cached, &swapcached, &active,
@@ -142,6 +159,7 @@ main (int argc, char **argv)
           MPI_Barrier (MPI_COMM_WORLD);
         }
 
+      /* close the file */
       t1 = MPI_Wtime ();
       assert (H5Fclose (file) >= 0);
       t2 = MPI_Wtime ();
