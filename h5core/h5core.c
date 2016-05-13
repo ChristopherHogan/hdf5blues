@@ -11,7 +11,7 @@
 #define INCREMENT 512*1024*1024
 #define MAX_DATASETS 10
 #define MAX_GROUPS 10
-#define MAX_ITER 4
+#define MAX_ITER 5
 #define MAX_LEN 255
 #define MAX_TIME_LEVEL 70
 /* 64 MB page size */
@@ -33,7 +33,7 @@ main (int argc, char **argv)
 {
   extern char* optarg;
   extern int optind, optopt;
-  int c, errflg, backflg, incrflg, pagflg, rank, nranks;
+  int c, errflg, backflg, incrflg, nopagflg, pagflg, rank, nranks;
   hid_t fapl, file, group, group1, dset;
   size_t incr, page;
   unsigned iter, level, igroup, idset, maxiter;
@@ -54,12 +54,12 @@ main (int argc, char **argv)
 
   /* parse arguments */
 
-  backflg = errflg = incrflg = pagflg = 0;
+  backflg = errflg = incrflg = nopagflg = pagflg = 0;
   incr = INCREMENT;
   page = PAGE_SIZE;
   maxiter = MAX_ITER;
 
-  while ((c = getopt(argc, argv, ":bi:t:p:")) != -1)
+  while ((c = getopt(argc, argv, ":bni:t:p:")) != -1)
     {
       switch (c)
       {
@@ -75,6 +75,9 @@ main (int argc, char **argv)
                     "Option -%c requires a positive integer argument\n", optopt);
             errflg++;
           }
+        break;
+      case 'n':
+        nopagflg++;
         break;
       case 'p':
         pagflg++;
@@ -118,8 +121,9 @@ main (int argc, char **argv)
           fprintf(stderr, "usage: h5core [OPTIONS]\n");
           fprintf(stderr, "  OPTIONS\n");
           fprintf(stderr, "     -b      Write file to disk on exit\n");
-          fprintf(stderr, "     -i I    Memory buffer increment size [default: 512 MB]\n");
-          fprintf(stderr, "     -p P    Page size [default: 64 MB]\n");
+          fprintf(stderr, "     -i I    Memory buffer increment size in bytes [default: 512 MB]\n");
+          fprintf(stderr, "     -n      Disable write (to disk) paging\n");
+          fprintf(stderr, "     -p P    Page size in bytes [default: 64 MB]\n");
           fprintf(stderr, "     -t T    Number of iterations [default: 5]\n");
           fprintf(stderr, "\n");
           fflush(stderr);
@@ -128,14 +132,55 @@ main (int argc, char **argv)
       exit(2);
     }
 
+  if ((backflg == 0) && (pagflg > 0))
+    {
+      if (rank == 0)
+        {
+          fprintf(stderr, "The -p has no effect without the -b option");
+          fflush(stderr);
+        }
+    }
+
+  if (pagflg && nopagflg)
+    {
+      if (rank == 0)
+        {
+          fprintf(stderr, "The -n and -p options are mutually exclusive.");
+          fflush(stderr);
+        }
+      exit(3);
+    }
+
   /* Let's go! */
 
-  
   fapl = H5Pcreate (H5P_FILE_ACCESS);
   assert (fapl >= 0);
   assert (H5Pset_libver_bounds (fapl, H5F_LIBVER_LATEST, H5F_LIBVER_LATEST) >= 0);
   assert (H5Pset_fapl_core (fapl, incr, (hbool_t) backflg) >= 0);
-  assert (H5Pset_core_write_tracking (fapl, 1, (size_t) PAGE_SIZE) >= 0);
+  if (nopagflg == 0)  /* the user didn't disable paging */
+    {
+      assert (H5Pset_core_write_tracking (fapl, 1, page) >= 0);
+    }
+
+  if (rank == 0)
+    {
+      printf("\n");
+      printf("Write to disk: %s\n", (backflg > 0) ? "YES" : "NO");
+      printf("Increment size: %ld [bytes]\n", incr);
+
+      if (nopagflg == 0)
+        {
+          printf("Page size: %ld [bytes]\n", page);
+        }
+      else
+        {
+          printf("Page size: PAGING DISABLED!\n");
+        }
+
+      printf("Iterations: %d\n", maxiter);
+      printf("\n");
+      fflush(stdout);
+    }
 
   buf = (float *) malloc (X * Y * Z * sizeof (float));
 
