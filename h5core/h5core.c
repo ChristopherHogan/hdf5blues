@@ -5,16 +5,17 @@
 #include <assert.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include <unistd.h>
 
 /* 512 MB increments for re-allocation */
-#define INCREMENT 64*1024*1024
+#define INCREMENT 512*1024*1024
 #define MAX_DATASETS 10
 #define MAX_GROUPS 10
-#define MAX_ITER 5
+#define MAX_ITER 4
 #define MAX_LEN 255
 #define MAX_TIME_LEVEL 70
-/* 1 GB page size */
-#define PAGE_SIZE 512*1024*1024
+/* 64 MB page size */
+#define PAGE_SIZE 64*1024*1024
 /* dataset shape */
 #define RANK 3
 #define X 48
@@ -30,10 +31,12 @@ void printmemory (int rank, int memtotal, int memfree, int buffers, int cached,
 int
 main (int argc, char **argv)
 {
-  int rank, nranks;
+  extern char* optarg;
+  extern int optind, optopt;
+  int c, errflg, backflg, incrflg, pagflg, rank, nranks;
   hid_t fapl, file, group, group1, dset;
-  size_t incr = INCREMENT;
-  unsigned iter, level, igroup, idset;
+  size_t incr, page;
+  unsigned iter, level, igroup, idset, maxiter;
   char name[MAX_LEN];
   char g1name[MAX_LEN];
   char g2name[MAX_LEN];
@@ -49,10 +52,89 @@ main (int argc, char **argv)
   assert (MPI_Comm_rank (MPI_COMM_WORLD, &rank) >= 0);
   assert (MPI_Comm_size (MPI_COMM_WORLD, &nranks) >= 0);
 
+  /* parse arguments */
+
+  backflg = errflg = incrflg = pagflg = 0;
+  incr = INCREMENT;
+  page = PAGE_SIZE;
+  maxiter = MAX_ITER;
+
+  while ((c = getopt(argc, argv, ":bi:t:p:")) != -1)
+    {
+      switch (c)
+      {
+      case 'b':
+        backflg++;
+        break;
+      case 'i':
+        incrflg++;
+        incr = (size_t)atol(optarg);
+        if (incr == 0)
+          {
+            fprintf(stderr,
+                    "Option -%c requires a positive integer argument\n", optopt);
+            errflg++;
+          }
+        break;
+      case 'p':
+        pagflg++;
+        page = (size_t)atol(optarg);
+        if (page == 0)
+          {
+            fprintf(stderr,
+                    "Option -%c requires a positive integer argument\n", optopt);
+            errflg++;
+          }
+        break;
+      case 't':
+        maxiter = (unsigned)atol(optarg);
+        if (maxiter == 0)
+          {
+            fprintf(stderr,
+                    "Option -%c requires a positive integer argument\n", optopt);
+            errflg++;
+          }
+        break;
+      case ':':       /* -i or -p without operand */
+        fprintf(stderr,
+                "Option -%c requires an operand\n", optopt);
+        errflg++;
+        break;
+      case '?':
+        fprintf(stderr, "Unrecognized option: -%c\n", optopt);
+        errflg++;
+        break;
+      default:
+        errflg++;
+        break;
+      }
+    }
+  if (errflg)
+    {
+      if (rank == 0)
+        {
+          fprintf(stderr, "usage: . . . ");
+
+          fprintf(stderr, "usage: h5core [OPTIONS]\n");
+          fprintf(stderr, "  OPTIONS\n");
+          fprintf(stderr, "     -b      Write file to disk on exit\n");
+          fprintf(stderr, "     -i I    Memory buffer increment size [default: 512 MB]\n");
+          fprintf(stderr, "     -p P    Page size [default: 64 MB]\n");
+          fprintf(stderr, "     -t T    Number of iterations [default: 5]\n");
+          fprintf(stderr, "\n");
+          fflush(stderr);
+        }
+
+      exit(2);
+    }
+
+  /* Let's go! */
+
+  
   fapl = H5Pcreate (H5P_FILE_ACCESS);
   assert (fapl >= 0);
   assert (H5Pset_libver_bounds (fapl, H5F_LIBVER_LATEST, H5F_LIBVER_LATEST) >= 0);
-  assert (H5Pset_fapl_core (fapl, incr, 1) >= 0);
+  assert (H5Pset_fapl_core (fapl, incr, (hbool_t) backflg) >= 0);
   assert (H5Pset_core_write_tracking (fapl, 1, (size_t) PAGE_SIZE) >= 0);
 
   buf = (float *) malloc (X * Y * Z * sizeof (float));
@@ -81,7 +163,7 @@ main (int argc, char **argv)
   start = MPI_Wtime ();
 
   /* outer loop - simulated time */
-  for (iter = 0; iter < MAX_ITER; ++iter)
+  for (iter = 0; iter < maxiter; ++iter)
     {
       if (rank == 0)
         {
