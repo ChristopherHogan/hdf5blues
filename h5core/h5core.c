@@ -5,6 +5,7 @@
 #include <assert.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 #include <unistd.h>
 
 #if USE_SPLIT
@@ -41,7 +42,7 @@ main (int argc, char **argv)
   hid_t fapl, file, group, group1, dset;
   size_t incr, page;
   unsigned iter, level, igroup, idset, maxiter;
-  char name[MAX_LEN];
+  char name[MAX_LEN * 2];
   char g1name[MAX_LEN];
   char g2name[MAX_LEN];
   hsize_t dims[3] = { X, Y, Z };
@@ -51,6 +52,7 @@ main (int argc, char **argv)
   char cdum[MAX_LEN];
   int i, memtotal, memfree, buffers, cached, swapcached, active, inactive;
   float fdum;
+  char path[MAX_LEN];
 
   assert (MPI_Init (&argc, &argv) >= 0);
   assert (MPI_Comm_rank (MPI_COMM_WORLD, &rank) >= 0);
@@ -63,12 +65,16 @@ main (int argc, char **argv)
   page = PAGE_SIZE;
   maxiter = MAX_ITER;
 
-  while ((c = getopt(argc, argv, ":bni:t:p:")) != -1)
+  while ((c = getopt(argc, argv, ":bf:ni:t:p:")) != -1)
     {
       switch (c)
       {
       case 'b':
         backflg++;
+        break;
+      case 'f':
+        fprintf(stdout, "Writing file at path: %s\n", optarg);
+        strncpy(path, optarg, MAX_LEN);
         break;
       case 'i':
         incrflg++;
@@ -125,6 +131,7 @@ main (int argc, char **argv)
           fprintf(stderr, "usage: h5core [OPTIONS]\n");
           fprintf(stderr, "  OPTIONS\n");
           fprintf(stderr, "     -b      Write file to disk on exit\n");
+          fprintf(stderr, "     -f P    Write file at absolute or relative path P\n");
           fprintf(stderr, "     -i I    Memory buffer increment size in bytes [default: 512 MB]\n");
           fprintf(stderr, "     -n      Disable write (to disk) paging\n");
           fprintf(stderr, "     -p P    Page size in bytes [default: 64 MB]\n");
@@ -240,7 +247,7 @@ main (int argc, char **argv)
           assert (fflush (stdout) == 0);
         }
 
-      assert (sprintf (name, "rank%05dtime%04u.h5", rank, iter) > 0);
+      assert (sprintf (name, "%s/rank%05dtime%04u.h5", path, rank, iter) > 0);
       file = H5Fcreate (name, H5F_ACC_TRUNC, H5P_DEFAULT, fapl);
       assert (file >= 0);
 
