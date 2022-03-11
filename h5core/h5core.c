@@ -7,11 +7,15 @@
 #include <stdlib.h>
 #include <unistd.h>
 
+#if USE_SPLIT
+#include "H5FDhermes.h"
+#endif
+
 /* 512 MB increments for re-allocation */
 #define INCREMENT 512*1024*1024
-#define MAX_DATASETS 10
-#define MAX_GROUPS 10
-#define MAX_ITER 5
+#define MAX_DATASETS 4
+#define MAX_GROUPS 5
+#define MAX_ITER 1
 #define MAX_LEN 255
 #define MAX_TIME_LEVEL 70
 /* 64 MB page size */
@@ -156,11 +160,25 @@ main (int argc, char **argv)
   fapl = H5Pcreate (H5P_FILE_ACCESS);
   assert (fapl >= 0);
   assert (H5Pset_libver_bounds (fapl, H5F_LIBVER_LATEST, H5F_LIBVER_LATEST) >= 0);
+
+#ifdef USE_CORE
   assert (H5Pset_fapl_core (fapl, incr, (hbool_t) backflg) >= 0);
   if (nopagflg == 0)  /* the user didn't disable paging */
     {
       assert (H5Pset_core_write_tracking (fapl, 1, page) >= 0);
     }
+#elif USE_LOG
+  assert (H5Pset_fapl_log (fapl, "log.out", H5FD_LOG_ALL, 1 * 1024 * 1024 * 1024) >= 0);
+#elif USE_SPLIT
+  hid_t meta_fapl = H5Pcreate(H5P_FILE_ACCESS);
+  assert(meta_fapl >= 0);
+  hid_t raw_fapl = H5Pcreate(H5P_FILE_ACCESS);
+  assert(raw_fapl >= 0);
+  assert(H5Pset_fapl_hermes(meta_fapl, false, 512) >= 0);
+  assert(H5Pset_fapl_hermes(raw_fapl, false, 5529600) >= 0);
+  assert(H5Pset_fapl_split(fapl, "-m.h5", meta_fapl, "-r.h5", raw_fapl) >= 0);
+#endif
+
 
   if (rank == 0)
     {
@@ -182,7 +200,13 @@ main (int argc, char **argv)
       fflush(stdout);
     }
 
-  buf = (float *) malloc (X * Y * Z * sizeof (float));
+  const float kData = 8.0f;
+  const size_t kNumElements = X * Y * Z;
+  const size_t kNumBytes = kNumElements * sizeof(float);
+  buf = (float *) malloc (kNumBytes);
+  for (size_t i = 0; i < kNumElements; ++i) {
+    buf[i] = kData;
+  }
 
   // Get basic memory info on each node, see how memory usage changes
   // after flushing to disk; do we end up back where we started?
@@ -329,7 +353,12 @@ main (int argc, char **argv)
 
   assert (H5Pclose (fapl) >= 0);
 
-  assert (MPI_Finalize () >= 0);
+#if USE_SPLIT
+  assert(H5Pclose(meta_fapl) >= 0);
+  assert(H5Pclose(raw_fapl) >= 0);
+#endif
+
+  /* assert (MPI_Finalize () >= 0); */
 
   return 0;
 
@@ -342,14 +371,14 @@ getmemory (int *memtotal, int *memfree, int *buffers, int *cached,
   FILE *fp_meminfo;
   char cdum[MAX_LEN];
   assert ((fp_meminfo = fopen ("/proc/meminfo", "r")) != (FILE *) NULL);
-  fscanf (fp_meminfo, "%s %i %s", cdum, memtotal, cdum);
-  fscanf (fp_meminfo, "%s %i %s", cdum, memfree, cdum);
-  fscanf (fp_meminfo, "%s %i %s", cdum, buffers, cdum);
-  fscanf (fp_meminfo, "%s %i %s", cdum, cached, cdum);
-  fscanf (fp_meminfo, "%s %i %s", cdum, swapcached, cdum);
-  fscanf (fp_meminfo, "%s %i %s", cdum, active, cdum);
-  fscanf (fp_meminfo, "%s %i %s", cdum, inactive, cdum);
-  fclose (fp_meminfo);
+  int unused = fscanf (fp_meminfo, "%s %i %s", cdum, memtotal, cdum);
+  unused = fscanf (fp_meminfo, "%s %i %s", cdum, memfree, cdum);
+  unused = fscanf (fp_meminfo, "%s %i %s", cdum, buffers, cdum);
+  unused = fscanf (fp_meminfo, "%s %i %s", cdum, cached, cdum);
+  unused = fscanf (fp_meminfo, "%s %i %s", cdum, swapcached, cdum);
+  unused = fscanf (fp_meminfo, "%s %i %s", cdum, active, cdum);
+  unused = fscanf (fp_meminfo, "%s %i %s", cdum, inactive, cdum);
+  unused = fclose (fp_meminfo);
 
 }
 
