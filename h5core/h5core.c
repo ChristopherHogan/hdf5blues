@@ -52,7 +52,7 @@ main (int argc, char **argv)
   char cdum[MAX_LEN];
   int i, memtotal, memfree, buffers, cached, swapcached, active, inactive;
   float fdum;
-  char path[MAX_LEN];
+  char path[MAX_LEN] = {'.', 0};
 
   assert (MPI_Init (&argc, &argv) >= 0);
   assert (MPI_Comm_rank (MPI_COMM_WORLD, &rank) >= 0);
