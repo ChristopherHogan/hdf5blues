@@ -181,11 +181,10 @@ main (int argc, char **argv)
   assert(meta_fapl >= 0);
   hid_t raw_fapl = H5Pcreate(H5P_FILE_ACCESS);
   assert(raw_fapl >= 0);
-  assert(H5Pset_fapl_hermes(meta_fapl, false, 512) >= 0);
+  assert(H5Pset_fapl_hermes(meta_fapl, false, 4096) >= 0);
   assert(H5Pset_fapl_hermes(raw_fapl, false, 5529600) >= 0);
   assert(H5Pset_fapl_split(fapl, "-m.h5", meta_fapl, "-r.h5", raw_fapl) >= 0);
 #endif
-
 
   if (rank == 0)
     {
