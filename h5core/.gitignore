@@ -3,4 +3,5 @@ h5hermes
 h5split
 h5log
 
+*.h5
 *.hermes
