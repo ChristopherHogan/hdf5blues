@@ -53,7 +53,7 @@ main (int argc, char **argv)
   int i, memtotal, memfree, buffers, cached, swapcached, active, inactive;
   float fdum;
   char path[MAX_LEN] = {'.', 0};
-  char *vfd = NULL;
+  char *vfd = "sec2";
   size_t hermes_vfd_md_page_size = 0;
   size_t hermes_vfd_rd_page_size = 0;
 
@@ -193,13 +193,14 @@ main (int argc, char **argv)
   assert(H5Pset_fapl_hermes(raw_fapl, false, hermes_vfd_rd_page_size) >= 0);
   assert(H5Pset_fapl_split(fapl, "-m.h5", meta_fapl, "-r.h5", raw_fapl) >= 0);
 #else
-  vfd = getenv("HDF5_DRIVER");
-  if (vfd && strncmp(vfd, "hermes", 6) == 0) {
+  char *hermes_vfd = getenv("HDF5_DRIVER");
+  if (hermes_vfd && strncmp(hermes_vfd, "hermes", 6) == 0) {
     char *driver_config = getenv("HDF5_DRIVER_CONFIG");
     char *saveptr = NULL;
     char* token = strtok_r(driver_config, " ", &saveptr);
     token = strtok_r(0, " ", &saveptr);
     sscanf(token, "%zu", &hermes_vfd_rd_page_size);
+    vfd = "hermes";
   }
 #endif
 
