@@ -369,11 +369,11 @@ main (int argc, char **argv)
 
       float total_time = stop - start;
       float bandwidth = ((float) X * Y * Z * sizeof (float)) *
-        ((float) MAX_DATASETS * MAX_GROUPS * MAX_TIME_LEVEL * MAX_ITER) /
+        ((float) MAX_DATASETS * MAX_GROUPS * MAX_TIME_LEVEL * maxiter) /
         (1024.0 * 1024.0 * 1024.0 * (stop - start));
 
       printf("%f,%s,%f,%d,%d,%d,%d,%zu,%zu\n", bandwidth, vfd, total_time, MAX_TIME_LEVEL, MAX_DATASETS,
-             MAX_GROUPS, MAX_ITER, hermes_vfd_md_page_size, hermes_vfd_rd_page_size);
+             MAX_GROUPS, maxiter, hermes_vfd_md_page_size, hermes_vfd_rd_page_size);
     }
 
   free ((void *) buf);
