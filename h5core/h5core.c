@@ -53,6 +53,10 @@ main (int argc, char **argv)
   int i, memtotal, memfree, buffers, cached, swapcached, active, inactive;
   float fdum;
   char path[MAX_LEN] = {'.', 0};
+  char *vfd = NULL;
+  size_t hermes_vfd_md_page_size = 0;
+  size_t hermes_vfd_rd_page_size = 0;
+
 
   assert (MPI_Init (&argc, &argv) >= 0);
   assert (MPI_Comm_rank (MPI_COMM_WORLD, &rank) >= 0);
@@ -73,7 +77,7 @@ main (int argc, char **argv)
         backflg++;
         break;
       case 'f':
-        fprintf(stdout, "Writing file at path: %s\n", optarg);
+        /* fprintf(stdout, "Writing file at path: %s\n", optarg); */
         strncpy(path, optarg, MAX_LEN);
         break;
       case 'i':
@@ -169,6 +173,7 @@ main (int argc, char **argv)
   assert (H5Pset_libver_bounds (fapl, H5F_LIBVER_LATEST, H5F_LIBVER_LATEST) >= 0);
 
 #ifdef USE_CORE
+  vfd = "core";
   assert (H5Pset_fapl_core (fapl, incr, (hbool_t) backflg) >= 0);
   if (nopagflg == 0)  /* the user didn't disable paging */
     {
@@ -177,32 +182,44 @@ main (int argc, char **argv)
 #elif USE_LOG
   assert (H5Pset_fapl_log (fapl, "log.out", H5FD_LOG_ALL, 1 * 1024 * 1024 * 1024) >= 0);
 #elif USE_SPLIT
+  vfd = "split";
   hid_t meta_fapl = H5Pcreate(H5P_FILE_ACCESS);
   assert(meta_fapl >= 0);
   hid_t raw_fapl = H5Pcreate(H5P_FILE_ACCESS);
   assert(raw_fapl >= 0);
-  assert(H5Pset_fapl_hermes(meta_fapl, false, 4096) >= 0);
-  assert(H5Pset_fapl_hermes(raw_fapl, false, 5529600) >= 0);
+  hermes_vfd_md_page_size = 4096;
+  assert(H5Pset_fapl_hermes(meta_fapl, false, hermes_vfd_md_page_size) >= 0);
+  hermes_vfd_rd_page_size = 5529600;
+  assert(H5Pset_fapl_hermes(raw_fapl, false, hermes_vfd_rd_page_size) >= 0);
   assert(H5Pset_fapl_split(fapl, "-m.h5", meta_fapl, "-r.h5", raw_fapl) >= 0);
+#else
+  vfd = getenv("HDF5_DRIVER");
+  if (vfd && strncmp(vfd, "hermes", 6) == 0) {
+    char *driver_config = getenv("HDF5_DRIVER_CONFIG");
+    char *saveptr = NULL;
+    char* token = strtok_r(driver_config, " ", &saveptr);
+    token = strtok_r(0, " ", &saveptr);
+    sscanf(token, "%zu", &hermes_vfd_rd_page_size);
+  }
 #endif
 
   if (rank == 0)
     {
-      printf("\n");
-      printf("Write to disk: %s\n", (backflg > 0) ? "YES" : "NO");
-      printf("Increment size: %ld [bytes]\n", incr);
+      /* printf("\n"); */
+      /* printf("Write to disk: %s\n", (backflg > 0) ? "YES" : "NO"); */
+      /* printf("Increment size: %ld [bytes]\n", incr); */
 
       if (nopagflg == 0)
         {
-          printf("Page size: %ld [bytes]\n", page);
+          /* printf("Page size: %ld [bytes]\n", page); */
         }
       else
         {
-          printf("Page size: PAGING DISABLED!\n");
+          /* printf("Page size: PAGING DISABLED!\n"); */
         }
 
-      printf("Iterations: %d\n", maxiter);
-      printf("\n");
+      /* printf("Iterations: %d\n", maxiter); */
+      /* printf("\n"); */
       fflush(stdout);
     }
 
@@ -217,20 +234,20 @@ main (int argc, char **argv)
   // Get basic memory info on each node, see how memory usage changes
   // after flushing to disk; do we end up back where we started?
 
-  getmemory (&memtotal, &memfree, &buffers, &cached, &swapcached, &active,
-             &inactive);
+  /* getmemory (&memtotal, &memfree, &buffers, &cached, &swapcached, &active, */
+  /*            &inactive); */
 
   if (rank == 0)
     {
-      fprintf (stdout, "BEFORE RUNNING:\n");
-      fflush (stdout);
+      /* fprintf (stdout, "BEFORE RUNNING:\n"); */
+      /* fflush (stdout); */
     }
   for (i = 0; i < nranks; i++)
     {
       if (rank == i)
         {
-          printmemory (rank, memtotal, memfree, buffers, cached, swapcached,
-                       active, inactive);
+          /* printmemory (rank, memtotal, memfree, buffers, cached, swapcached, */
+          /*              active, inactive); */
         }
       MPI_Barrier (MPI_COMM_WORLD);
     }
@@ -242,8 +259,8 @@ main (int argc, char **argv)
     {
       if (rank == 0)
         {
-          printf ("Iteration: %u\n", iter);
-          assert (fflush (stdout) == 0);
+          /* printf ("Iteration: %u\n", iter); */
+          /* assert (fflush (stdout) == 0); */
         }
 
       assert (sprintf (name, "%s/rank%05dtime%04u.h5", path, rank, iter) > 0);
@@ -290,28 +307,28 @@ main (int argc, char **argv)
 
       t2 = MPI_Wtime ();
 
-      assert (fprintf (stdout,
-                       "rank %04i Total time for buffering chunks to memory:\t %f seconds\n",
-                       rank, t2 - t1));
-      assert (fflush (stdout) == 0);
+      /* assert (fprintf (stdout, */
+      /*                  "rank %04i Total time for buffering chunks to memory:\t %f seconds\n", */
+      /*                  rank, t2 - t1)); */
+      /* assert (fflush (stdout) == 0); */
 
       MPI_Barrier (MPI_COMM_WORLD);    // To keep output less jumbled
 
-      getmemory (&memtotal, &memfree, &buffers, &cached, &swapcached, &active,
-                 &inactive);
+      /* getmemory (&memtotal, &memfree, &buffers, &cached, &swapcached, &active, */
+      /*            &inactive); */
 
       if (rank == 0)
         {
-          fprintf (stdout, "BEFORE FLUSHING:\n");
-          fflush (stdout);
+          /* fprintf (stdout, "BEFORE FLUSHING:\n"); */
+          /* fflush (stdout); */
         }
 
       for (i = 0; i < nranks; i++)
         {
           if (rank == i)
             {
-              printmemory (rank, memtotal, memfree, buffers, cached, swapcached,
-                           active, inactive);
+              /* printmemory (rank, memtotal, memfree, buffers, cached, swapcached, */
+              /*              active, inactive); */
             }
           MPI_Barrier (MPI_COMM_WORLD);
         }
@@ -321,23 +338,23 @@ main (int argc, char **argv)
       assert (H5Fclose (file) >= 0);
       t2 = MPI_Wtime ();
 
-      getmemory (&memtotal, &memfree, &buffers, &cached, &swapcached, &active,
-                 &inactive);
+      /* getmemory (&memtotal, &memfree, &buffers, &cached, &swapcached, &active, */
+      /*            &inactive); */
 
       if (rank == 0)
         {
-          fprintf (stdout, "AFTER FLUSHING:\n");
-          fflush (stdout);
+          /* fprintf (stdout, "AFTER FLUSHING:\n"); */
+          /* fflush (stdout); */
         }
 
       for (i = 0; i < nranks; i++)
         {
           if (rank == i)
             {
-              printmemory (rank, memtotal, memfree, buffers, cached, swapcached,
-                           active, inactive);
-              assert (fprintf (stdout, "rank %04i Total time for flushing to disk:\t\t %10.2f seconds\n", rank, t2 - t1));
-              assert (fflush (stderr) == 0);
+              /* printmemory (rank, memtotal, memfree, buffers, cached, swapcached, */
+              /*              active, inactive); */
+              /* assert (fprintf (stdout, "rank %04i Total time for flushing to disk:\t\t %10.2f seconds\n", rank, t2 - t1)); */
+              /* assert (fflush (stderr) == 0); */
             }
           MPI_Barrier (MPI_COMM_WORLD);
         }
@@ -348,11 +365,15 @@ main (int argc, char **argv)
 
   if (rank == 0)
     {
-      printf ("Total time: %f s\n", stop - start);
-      printf ("Aggregate bandwidth per process: %f GB/s\n",
-              ((float) X * Y * Z * sizeof (float)) *
-              ((float) MAX_DATASETS * MAX_GROUPS * MAX_TIME_LEVEL * MAX_ITER) /
-              (1024.0 * 1024.0 * 1024.0 * (stop - start)));
+      /*  Bandwdith (GiB/s)	VFD	Total time	Levels	Datasets	Groups	Iters	VFD Page size */
+
+      float total_time = stop - start;
+      float bandwidth = ((float) X * Y * Z * sizeof (float)) *
+        ((float) MAX_DATASETS * MAX_GROUPS * MAX_TIME_LEVEL * MAX_ITER) /
+        (1024.0 * 1024.0 * 1024.0 * (stop - start));
+
+      printf("%f,%s,%f,%d,%d,%d,%d,%zu,%zu\n", bandwidth, vfd, total_time, MAX_TIME_LEVEL, MAX_DATASETS,
+             MAX_GROUPS, MAX_ITER, hermes_vfd_md_page_size, hermes_vfd_rd_page_size);
     }
 
   free ((void *) buf);
@@ -370,39 +391,39 @@ main (int argc, char **argv)
 
 }
 
-void
-getmemory (int *memtotal, int *memfree, int *buffers, int *cached,
-           int *swapcached, int *active, int *inactive)
-{
-  FILE *fp_meminfo;
-  char cdum[MAX_LEN];
-  assert ((fp_meminfo = fopen ("/proc/meminfo", "r")) != (FILE *) NULL);
-  int unused = fscanf (fp_meminfo, "%s %i %s", cdum, memtotal, cdum);
-  unused = fscanf (fp_meminfo, "%s %i %s", cdum, memfree, cdum);
-  unused = fscanf (fp_meminfo, "%s %i %s", cdum, buffers, cdum);
-  unused = fscanf (fp_meminfo, "%s %i %s", cdum, cached, cdum);
-  unused = fscanf (fp_meminfo, "%s %i %s", cdum, swapcached, cdum);
-  unused = fscanf (fp_meminfo, "%s %i %s", cdum, active, cdum);
-  unused = fscanf (fp_meminfo, "%s %i %s", cdum, inactive, cdum);
-  unused = fclose (fp_meminfo);
+/* void */
+/* getmemory (int *memtotal, int *memfree, int *buffers, int *cached, */
+/*            int *swapcached, int *active, int *inactive) */
+/* { */
+/*   FILE *fp_meminfo; */
+/*   char cdum[MAX_LEN]; */
+/*   assert ((fp_meminfo = fopen ("/proc/meminfo", "r")) != (FILE *) NULL); */
+/*   int unused = fscanf (fp_meminfo, "%s %i %s", cdum, memtotal, cdum); */
+/*   unused = fscanf (fp_meminfo, "%s %i %s", cdum, memfree, cdum); */
+/*   unused = fscanf (fp_meminfo, "%s %i %s", cdum, buffers, cdum); */
+/*   unused = fscanf (fp_meminfo, "%s %i %s", cdum, cached, cdum); */
+/*   unused = fscanf (fp_meminfo, "%s %i %s", cdum, swapcached, cdum); */
+/*   unused = fscanf (fp_meminfo, "%s %i %s", cdum, active, cdum); */
+/*   unused = fscanf (fp_meminfo, "%s %i %s", cdum, inactive, cdum); */
+/*   unused = fclose (fp_meminfo); */
 
-}
+/* } */
 
 
-void
-printmemory (int rank, int memtotal, int memfree, int buffers, int cached,
-             int swapcached, int active, int inactive)
-{
+/* void */
+/* printmemory (int rank, int memtotal, int memfree, int buffers, int cached, */
+/*              int swapcached, int active, int inactive) */
+/* { */
 
-  float fdum;
-  float kibble = 1.024;    // 1024/1000, KiB/KB conversion
-  fdum = 1.0e-6 * (float) memtotal / kibble;   fprintf (stdout, "rank %04i %12s: %10.2f GB\n", rank, "Memtotal", fdum);
-  fdum = 1.0e-6 * (float) memfree / kibble;    fprintf (stdout, "rank %04i %12s: %10.2f GB\n", rank, "MemFree", fdum);
-  fdum = 1.0e-6 * (float) buffers / kibble;    fprintf (stdout, "rank %04i %12s: %10.2f GB\n", rank, "Buffers", fdum);
-  fdum = 1.0e-6 * (float) cached / kibble;     fprintf (stdout, "rank %04i %12s: %10.2f GB\n", rank, "Cached", fdum);
-  fdum = 1.0e-6 * (float) swapcached / kibble; fprintf (stdout, "rank %04i %12s: %10.2f GB\n", rank, "SwapCached", fdum);
-  fdum = 1.0e-6 * (float) active / kibble;     fprintf (stdout, "rank %04i %12s: %10.2f GB\n", rank, "Active", fdum);
-  fdum = 1.0e-6 * (float) inactive / kibble;   fprintf (stdout, "rank %04i %12s: %10.2f GB\n", rank, "Inactive", fdum);
-  assert (fflush (stderr) == 0);
+/*   float fdum; */
+/*   float kibble = 1.024;    // 1024/1000, KiB/KB conversion */
+/*   fdum = 1.0e-6 * (float) memtotal / kibble;   fprintf (stdout, "rank %04i %12s: %10.2f GB\n", rank, "Memtotal", fdum); */
+/*   fdum = 1.0e-6 * (float) memfree / kibble;    fprintf (stdout, "rank %04i %12s: %10.2f GB\n", rank, "MemFree", fdum); */
+/*   fdum = 1.0e-6 * (float) buffers / kibble;    fprintf (stdout, "rank %04i %12s: %10.2f GB\n", rank, "Buffers", fdum); */
+/*   fdum = 1.0e-6 * (float) cached / kibble;     fprintf (stdout, "rank %04i %12s: %10.2f GB\n", rank, "Cached", fdum); */
+/*   fdum = 1.0e-6 * (float) swapcached / kibble; fprintf (stdout, "rank %04i %12s: %10.2f GB\n", rank, "SwapCached", fdum); */
+/*   fdum = 1.0e-6 * (float) active / kibble;     fprintf (stdout, "rank %04i %12s: %10.2f GB\n", rank, "Active", fdum); */
+/*   fdum = 1.0e-6 * (float) inactive / kibble;   fprintf (stdout, "rank %04i %12s: %10.2f GB\n", rank, "Inactive", fdum); */
+/*   assert (fflush (stderr) == 0); */
 
-}
+/* } */
